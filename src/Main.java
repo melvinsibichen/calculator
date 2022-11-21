@@ -23,9 +23,14 @@ public class Main {
         int c = x * y;
         System.out.println(c);
     }
-    static void div(int x, int y)
+    static void div()
     {
+        System.out.println("Enter 2 numbers");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
         float d = x / y;
+        System.out.println(d);
     }
 
 
