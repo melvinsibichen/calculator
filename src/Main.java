@@ -5,9 +5,14 @@ public class Main {
         int a = x + y;
     }
 
-    static void sub(int x, int y)
+    static void sub()
     {
+        System.out.println("Enter 2 numbers");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
         int b = x - y;
+        System.out.println(b);
     }
     static void mult(int x, int y)
     {
