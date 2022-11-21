@@ -1,7 +1,11 @@
 import java.util.Scanner;
 public class Main {
-    static void add(int x, int y)
+    static void add()
     {
+        System.out.println("Enter 2 numbers");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
         int a = x + y;
     }
 
