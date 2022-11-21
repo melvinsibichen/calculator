@@ -11,7 +11,7 @@ public class Main {
     }
     static void mult(int x, int y)
     {
-        int c = x - y;
+        int c = x * y;
     }
 
 
