@@ -15,7 +15,7 @@ public class Main {
     }
     static void div(int x, int y)
     {
-        float d = x - y;
+        float d = x / y;
     }
 
 
