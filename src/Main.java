@@ -9,6 +9,10 @@ public class Main {
     {
         int b = x - y;
     }
+    static void mult(int x, int y)
+    {
+        int c = x - y;
+    }
 
 
     public static void main(String[] args) {
