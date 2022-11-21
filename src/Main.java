@@ -7,6 +7,8 @@ public class Main {
         int x = sc.nextInt();
         int y = sc.nextInt();
         int a = x + y;
+        System.out.println(a);
+
     }
 
     static void sub()
@@ -33,22 +35,43 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
-        float d = x / y;
-        System.out.println(d);
+        try
+        {
+            float d = x / y;
+            System.out.println(d);
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println(e);
+        }
+
+
     }
 
 
     public static void main(String[] args) {
 
-        System.out.println("Enter 2 numbers");
+
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
         System.out.println("Enter 1 for addition");
         System.out.println("Enter 2 for Subtraction");
         System.out.println("Enter 3 for Multiplication");
         System.out.println("Enter 4 for Division");
         int z = sc.nextInt();
+
+        switch(z)
+        {
+            case 1:add();
+                break;
+            case 2:sub();
+                break;
+            case 3:mult();
+                break;
+            case 4:div();
+                break;
+            case 5:System.exit(0);
+                break;
+        }
 
     }
 }
