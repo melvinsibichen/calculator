@@ -14,9 +14,14 @@ public class Main {
         int b = x - y;
         System.out.println(b);
     }
-    static void mult(int x, int y)
+    static void mult()
     {
+        System.out.println("Enter 2 numbers");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
         int c = x * y;
+        System.out.println(c);
     }
     static void div(int x, int y)
     {
