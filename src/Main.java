@@ -5,6 +5,12 @@ public class Main {
         int a = x + y;
     }
 
+    static void sub(int x, int y)
+    {
+        int b = x - y;
+    }
+
+
     public static void main(String[] args) {
 
         System.out.println("Enter 2 numbers");
