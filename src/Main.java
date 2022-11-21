@@ -13,6 +13,10 @@ public class Main {
     {
         int c = x - y;
     }
+    static void div(int x, int y)
+    {
+        int d = x - y;
+    }
 
 
     public static void main(String[] args) {
